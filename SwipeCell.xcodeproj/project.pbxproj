@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC5653841D18DCCD0018D708 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5653831D18DCCD0018D708 /* ViewController.m */; };
 		BCF58BE31CFFDC6800CF443B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF58BE21CFFDC6800CF443B /* main.m */; };
 		BCF58BE61CFFDC6800CF443B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF58BE51CFFDC6800CF443B /* AppDelegate.m */; };
-		BCF58BE91CFFDC6900CF443B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF58BE81CFFDC6900CF443B /* ViewController.m */; };
 		BCF58BEC1CFFDC6900CF443B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF58BEA1CFFDC6900CF443B /* Main.storyboard */; };
 		BCF58BEE1CFFDC6900CF443B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF58BED1CFFDC6900CF443B /* Assets.xcassets */; };
 		BCF58BF11CFFDC6900CF443B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF58BEF1CFFDC6900CF443B /* LaunchScreen.storyboard */; };
@@ -38,12 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC5653821D18DCCD0018D708 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = SwipeCell/ViewController.h; sourceTree = SOURCE_ROOT; };
+		BC5653831D18DCCD0018D708 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = SwipeCell/ViewController.m; sourceTree = SOURCE_ROOT; };
 		BCF58BDE1CFFDC6700CF443B /* SwipeCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF58BE21CFFDC6800CF443B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCF58BE41CFFDC6800CF443B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BCF58BE51CFFDC6800CF443B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BCF58BE71CFFDC6800CF443B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
-		BCF58BE81CFFDC6900CF443B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		BCF58BEB1CFFDC6900CF443B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCF58BED1CFFDC6900CF443B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCF58BF01CFFDC6900CF443B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -152,8 +152,8 @@
 		BCF58C1A1CFFDD6800CF443B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BCF58BE71CFFDC6800CF443B /* ViewController.h */,
-				BCF58BE81CFFDC6900CF443B /* ViewController.m */,
+				BC5653821D18DCCD0018D708 /* ViewController.h */,
+				BC5653831D18DCCD0018D708 /* ViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -301,8 +301,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC5653841D18DCCD0018D708 /* ViewController.m in Sources */,
 				BCF58C1E1CFFE71800CF443B /* XTCustomCell.m in Sources */,
-				BCF58BE91CFFDC6900CF443B /* ViewController.m in Sources */,
 				BCF58BE61CFFDC6800CF443B /* AppDelegate.m in Sources */,
 				BCF58C181CFFDCAE00CF443B /* MGSwipeButton.m in Sources */,
 				BCF58BE31CFFDC6800CF443B /* main.m in Sources */,
@@ -532,6 +532,7 @@
 				BCF58C0D1CFFDC6B00CF443B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCF58C0E1CFFDC6B00CF443B /* Build configuration list for PBXNativeTarget "SwipeCellTests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +541,7 @@
 				BCF58C101CFFDC6B00CF443B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCF58C111CFFDC6B00CF443B /* Build configuration list for PBXNativeTarget "SwipeCellUITests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +550,7 @@
 				BCF58C131CFFDC6B00CF443B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
